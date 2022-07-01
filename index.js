@@ -17,6 +17,37 @@ document.getElementById("submitButton").onclick = function(){
     }  
 }
 
+document.getElementById("submitButton2").onclick = function(){
+    const myCheckBox = document.getElementById("subscribeBox");
+    const visaPayment = document.getElementById("visaInput");
+    const mastercardPayment = document.getElementById("mastercardInput");
+    const paypalPayment = document.getElementById("paypalInput");
+
+    if (myCheckBox.checked) {
+        alert("Kindly proceed to make payment to complete subscription process");
+    }
+    else{
+        alert("Kindly subscribe");
+    }
+    if (visaPayment.checked) {
+        alert("You have chosen to pay with Visa Card");
+    } 
+    else if (mastercardPayment.checked) {
+        alert("You have chosen to pay with Master Card")
+    }
+    else if (paypalPayment.checked) {
+        alert("You are paying with Paypal")
+    }
+    else {
+        alert("Please select a payment type")
+    }
+}
+
+
+
+
+
+
 
 
 
