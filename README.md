@@ -1,4 +1,3 @@
-# if_statements
-Simple projects on if, else if, else statements and control flow
-Links JavaScript page to an HTML page which takes users input
-CONST were used to store variables# nestedLoop
+Nested loops
+This file contains code for both html and JavaScript 
+Code contains loop inside another loop to run a row and column format
